@@ -1,0 +1,20 @@
+/* pages/nostandard/nostandard.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10rpx;
+}
+.head{
+  padding: 10rpx;
+}
+.title{
+  display: block;
+  font-size: 60rpx;
+}
+.description{
+  display: block;
+  margin-top: 30rpx;
+  color:cornflowerblue;
+  font-size: 35rpx
+}

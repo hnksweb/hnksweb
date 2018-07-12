@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hnks/hnks",
+    "pages/sale/sale",
+    "pages/user/user",
+    "pages/standard/standard",
+    "pages/nostandard/nostandard" 
+  ],
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "登录",
+      "iconPath": "image/03.png",
+      "selectedIconPath": "image/03.png"
+    },
+    {
+      "pagePath": "pages/hnks/hnks",
+      "text": "公司简介",
+      "iconPath": "image/hnks.png",
+      "selectedIconPath": "image/hnks.png"
+    },
+    {
+        "pagePath": "pages/sale/sale",
+        "text": "销售报价",
+        "iconPath": "image/05.png",
+        "selectedIconPath": "image/06.png"
+    },
+    
+    {
+      "pagePath": "pages/standard/standard",
+      "text": "历史查询",
+      "iconPath": "image/07.png",
+      "selectedIconPath": "image/08.png"
+    }
+  ]
+  },
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#014c98",
+    "navigationBarTitleText": "河南矿山",
+    "navigationBarTextStyle":"white"
+  }
+}

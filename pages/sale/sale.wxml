@@ -1,0 +1,20 @@
+<!--pages/sale/sale.wxml-->
+ <view class='container'>
+   <view class='head'></view>
+     <text class='title'>河南矿山报价服务系统</text>
+     <text class='description'>标准配置输入规格型号自动报价；非标需求提交非标要求，销售部专人核价后回复。</text>
+ </view> 
+
+ <view class='body'>
+    <scroll-view scroll-y="true" height="100%">
+      <view wx:for="{{sale}}">
+        <navigator url='../sale/sale?key={{item.key}}&name={{item.name}}'>
+          <view class='list'>
+            <image class='list-pimg' src='{{item.imgUrl}}' mode='aspectFit'/>
+            <text class='list-name'>{{item.name}}></text>
+            <image class='list-img' src='/image/hnks.png' mode='aspectFill'/>
+          </view>
+        </navigator>
+      </view>
+    </scroll-view>
+  </view>

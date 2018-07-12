@@ -1,0 +1,16 @@
+
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">请录入规格型号查询报价</view>
+    <view class="weui-cells__title">示例：LD5T-13.5M</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" auto-focus placeholder="在此录入"/>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="feedback-button">
+        <button type="default" size="mini" bindtap="bindSubmit"> 查询 </button>
+</view>
